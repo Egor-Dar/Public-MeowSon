@@ -9,7 +9,7 @@ public class ThirnsTouch : MonoBehaviour
 
     private void Start()
     {
-        this.gameObject.layer=0;
+        gameObject.layer=0;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -20,19 +20,13 @@ public class ThirnsTouch : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            _animator.SetBool("Touch",false);
-            gameObject.layer = 0;
-        }
-    }
-
     IEnumerator Timer()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         _animator.SetBool("Touch",true);
         gameObject.layer = 10;
+        yield return new WaitForSeconds(0.5f);
+        _animator.SetBool("Touch",false);
+        gameObject.layer = 0;
     }
 }

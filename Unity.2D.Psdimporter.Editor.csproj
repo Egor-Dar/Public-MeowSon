@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8af0fd85-7d0c-d7d7-3517-5c36f9ce48d5}</ProjectGuid>
+    <ProjectGuid>{834c2f21-fbf0-7bae-e9c2-858ed99a22ce}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -297,22 +297,22 @@
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
      </Reference>
      <Reference Include="YamlDotNet">
-     <HintPath>C:/Users/egord/Documents/МяуСоныТеорияЗаговора/Library/PackageCache/com.unity.visualscripting@1.5.2/Editor/VisualScripting.Core/Dependencies/YamlDotNet/YamlDotNet.dll</HintPath>
+     <HintPath>C:/Users/egord/Documents/MeowSon/Library/PackageCache/com.unity.visualscripting@1.5.2/Editor/VisualScripting.Core/Dependencies/YamlDotNet/YamlDotNet.dll</HintPath>
      </Reference>
      <Reference Include="IonicZip">
-     <HintPath>C:/Users/egord/Documents/МяуСоныТеорияЗаговора/Library/PackageCache/com.unity.visualscripting@1.5.2/Editor/VisualScripting.Core/Dependencies/DotNetZip/IonicZip.dll</HintPath>
+     <HintPath>C:/Users/egord/Documents/MeowSon/Library/PackageCache/com.unity.visualscripting@1.5.2/Editor/VisualScripting.Core/Dependencies/DotNetZip/IonicZip.dll</HintPath>
      </Reference>
      <Reference Include="MiscUtil">
-     <HintPath>C:/Users/egord/Documents/МяуСоныТеорияЗаговора/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Core/Dependencies/MiscUtil/MiscUtil.dll</HintPath>
+     <HintPath>C:/Users/egord/Documents/MeowSon/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Core/Dependencies/MiscUtil/MiscUtil.dll</HintPath>
      </Reference>
      <Reference Include="Antlr3.Runtime">
-     <HintPath>C:/Users/egord/Documents/МяуСоныТеорияЗаговора/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Antlr3.Runtime.dll</HintPath>
+     <HintPath>C:/Users/egord/Documents/MeowSon/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Antlr3.Runtime.dll</HintPath>
      </Reference>
      <Reference Include="clipper_library">
-     <HintPath>C:/Users/egord/Documents/МяуСоныТеорияЗаговора/Library/PackageCache/com.unity.cinemachine@2.7.3/Runtime/ThirdParty/clipper_library.dll</HintPath>
+     <HintPath>C:/Users/egord/Documents/MeowSon/Library/PackageCache/com.unity.cinemachine@2.7.3/Runtime/ThirdParty/clipper_library.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
-     <HintPath>C:/Users/egord/Documents/МяуСоныТеорияЗаговора/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+     <HintPath>C:/Users/egord/Documents/MeowSon/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="mscorlib">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -662,43 +662,43 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="PsdPlugin.csproj">
-      <Project>{d0d4425b-7882-b76a-9e5c-503d42903bdd}</Project>
+      <Project>{496585f3-66d5-21d6-78ad-accd97ad7afd}</Project>
       <Name>PsdPlugin</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{55cf92c7-28c3-2a45-7a63-e43507a72239}</Project>
+      <Project>{7e097722-c7b9-78d5-69fd-3509a9dceb2a}</Project>
       <Name>Unity.InternalAPIEditorBridge.001</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{3469ee0f-7140-aae8-451b-d1f4b2441ea7}</Project>
+      <Project>{d1e82767-1efe-8274-2ba2-f905dbe4baab}</Project>
       <Name>Unity.2D.Common.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
-      <Project>{ab9e4ac6-bddb-5267-cf2b-1eccdd5f2f97}</Project>
+      <Project>{d90561b0-3dd9-2d47-83dc-c020b6de7230}</Project>
       <Name>Unity.2D.Animation.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
-      <Project>{210bf523-a571-8ebc-f38d-450bb0c0550b}</Project>
+      <Project>{47642122-0d27-1c74-0335-6c804df768c0}</Project>
       <Name>Unity.2D.Animation.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{dd191a95-e49d-db96-e9a0-13fcdedc508f}</Project>
+      <Project>{2e8d8b20-b94f-912d-1bbf-b7d55b6f1b2b}</Project>
       <Name>Unity.2D.Sprite.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{b1367d97-9597-f75d-c572-9ce66e12bbad}</Project>
+      <Project>{0a666bf2-22be-bb0d-cb74-e6009c70fc1e}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{bce3fb6d-212d-d481-92c9-2a9c51200bf9}</Project>
+      <Project>{2bfc84c4-7d17-8cfc-0f33-1ae89cfce454}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{26dd930c-1b90-13e6-fd40-f61435fff64a}</Project>
+      <Project>{5968c019-6a0a-16c4-53aa-f4f8edfd8be9}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{8428e493-82e0-17f3-7bc9-d8d5af45d2db}</Project>
+      <Project>{67d450f3-20e4-bb27-5b49-44f8f62b9917}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
